@@ -4,8 +4,8 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
-import 'intl';
-import 'intl/locale-data/jsonp/en';
+// import 'intl';
+// import 'intl/locale-data/jsonp/en';
 
 if (environment.production) {
   enableProdMode();
